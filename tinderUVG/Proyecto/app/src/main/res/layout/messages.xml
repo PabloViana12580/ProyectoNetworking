@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/messages"
+    android:weightSum="1">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button12"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button5"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:background="@android:color/transparent" />
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="mensaje1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje1" />
+
+        <Button
+            android:text="mensaje2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje2" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button24" />
+
+        <Button
+            android:text="mensaje3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje3" />
+
+        <Button
+            android:text="mensaje4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje4" />
+
+        <Button
+            android:text="mensaje5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje5" />
+
+        <Button
+            android:text="mensaje6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje6" />
+
+        <Button
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            tools:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+</LinearLayout>

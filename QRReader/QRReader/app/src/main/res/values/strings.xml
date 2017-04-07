@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QR Reader</string>
+    <string name="resultado_text_default">Por favor enfoque la camara en el codigo QR</string>
+</resources>
