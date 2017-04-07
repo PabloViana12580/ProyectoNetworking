@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/nombredelusuario"
+        android:id="@+id/etName"
         android:layout_weight="0.07" />
 
     <EditText
@@ -24,13 +24,13 @@
         android:layout_height="wrap_content"
         android:inputType="numberPassword"
         android:ems="10"
-        android:id="@+id/clave"
+        android:id="@+id/etClave"
         android:layout_weight="0.14" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ingresar"
+        android:id="@+id/bIngresar"
         android:layout_weight="0.19"
         android:background="@android:color/transparent" />
 </LinearLayout>
