@@ -1,3 +1,4 @@
+
 package com.example.android.facebookloginsample;
 
 /**
@@ -14,6 +15,8 @@ public class User {
     public String facebookID;
 
     public String gender;
+    
+    public User(){}
 
     public User(String name, String email, String facebookID, String gender) {
         this.name = name;
