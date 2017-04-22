@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,6 +26,7 @@ public class LogoutActivity extends Activity {
     private TextView btnLogout;
     private User user;
     private ImageView profileImage;
+    private Button authInsgtagram;
     Bitmap bitmap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,7 @@ public class LogoutActivity extends Activity {
         setContentView(R.layout.activity_logout);
         user=PrefUtils.getCurrentUser(LogoutActivity.this);
         profileImage= (ImageView) findViewById(R.id.profileImage);
+
 
         // fetching facebook's profile picture
         new AsyncTask<Void,Void,Void>(){
